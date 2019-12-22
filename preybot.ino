@@ -1,6 +1,8 @@
 #include <Servo.h> // for ESC signals
 #include <FastLED.h> // for LEDs
 /////CONSTANTS
+/// do you like my comenting skils joshua?
+
 #define noSigOffTime 100000 // if there is no signal on a channel for this many microseconds, disable
 #define LEDPeriod 20 // milliseconds between LED refreshes
 #define yPercent 80 // what fraction of full power can be used for moving forwards (leaving power to move around other axes)
